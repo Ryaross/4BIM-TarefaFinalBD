@@ -72,7 +72,7 @@ FOREIGN KEY (id_produto) REFERENCES produto(cd)
 
 /* QUESTÃO 1 */
 
-#LINK: 
+# LINK MER: https://raw.githubusercontent.com/devgamon/FinalBD/main/MER.png
 
 /* QUESTÃO 2 */ 
 
