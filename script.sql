@@ -72,9 +72,89 @@ FOREIGN KEY (id_produto) REFERENCES produto(cd)
 
 /* QUESTÃO 1 */
 
-#Anexo no REPO
+#LINK: 
 
 /* QUESTÃO 2 */ 
+
+/* INSERÇÕES CATEGORIAS */
+
+INSERT INTO categoria(nome) VALUES ('Elétrica');
+INSERT INTO categoria(nome) VALUES ('Hidráulica');
+INSERT INTO categoria(nome) VALUES ('Ferragem');
+INSERT INTO categoria(nome) VALUES ('Construção');
+INSERT INTO categoria(nome) VALUES ('Ferramentas');
+
+/* INSERÇÕES PRODUTOS */
+
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_ELETRICA 1', 10, 4.20, 1);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_ELETRICA 2', 5, 10.50, 1);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_ELETRICA 3', 4, 9.99, 1);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_ELETRICA 4', 20, 50.30, 1);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_ELETRICA 5', 10, 4.20, 1);
+
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_HIDRAULICA 1', 10, 4.20, 2);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_HIDRAULICA 2', 5, 10.20, 2);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_HIDRAULICA 3', 4, 9.50, 2);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_HIDRAULICA 4', 20, 45.50, 2);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_HIDRAULICA 5', 10, 4.25, 2);
+
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAGEM 1', 10, 4.50, 3);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAGEM 2', 5, 11.00, 3);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAGEM 3', 4, 8.00, 3);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAGEM 4', 20, 20.50, 3);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAGEM 5', 10, 3.20, 3);
+
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_CONSTRUÇÃO 1', 10, 2.20, 4);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_CONSTRUÇÃO 2', 5, 4.99, 4);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_CONSTRUÇÃO 3', 4, 9.99, 4);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_CONSTRUÇÃO 4', 20, 90.99, 4);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_CONSTRUÇÃO 5', 10, 4.20, 4);
+
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAMENTAS 1', 10, 29.99, 5);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAMENTAS 2', 5, 12.35, 5);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAMENTAS 3', 4, 99.99, 5);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAMENTAS 4', 20, 50.00, 5);
+INSERT INTO produto(nome, qtd, valor, id_categoria) VALUES('PRODUTO_FERRAMENTAS 5', 10, 5.00, 5);
+
+/* INSERÇÕES VENDEDORES */
+
+INSERT INTO vendedor(nome) VALUES('Luca Poe de Almeida');
+INSERT INTO vendedor(nome) VALUES('Gabriel Bernardo Gamon');
+INSERT INTO vendedor(nome) VALUES('Pedro Vitor');
+INSERT INTO vendedor(nome) VALUES('Eduardo Yasui');
+
+/* INSERÇÕES ESTADOS */
+
+INSERT INTO estado(nome, sigla) VALUES('São Paulo','SP');
+INSERT INTO estado(nome, sigla) VALUES('Rio de Janeiro','RJ');
+INSERT INTO estado(nome, sigla) VALUES('Minas Gerais','MG');
+
+/* INSERÇÕES CIDADES */
+
+INSERT INTO cidade(nome, id_estado) VALUES('Santos', 1);
+INSERT INTO cidade(nome, id_estado) VALUES('São Vicente', 1);
+INSERT INTO cidade(nome, id_estado) VALUES('Guarulhos', 1);
+
+INSERT INTO cidade(nome, id_estado) VALUES('Niterói', 2);
+INSERT INTO cidade(nome, id_estado) VALUES('Petrópolis', 2);
+INSERT INTO cidade(nome, id_estado) VALUES('Rio de Janeiro', 2);
+
+INSERT INTO cidade(nome, id_estado) VALUES('Belo Horizonte', 3);
+INSERT INTO cidade(nome, id_estado) VALUES('Uberlândia', 3);
+INSERT INTO cidade(nome, id_estado) VALUES('Juiz de Fora', 3);
+
+/* INSERÇÕES CLIENTES */
+
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_1','TELEFONE_USER_1','M','INATIVO', 1);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_2','TELEFONE_USER_2','M','ATIVO', 2);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_3','TELEFONE_USER_3','M','ATIVO', 3);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_4','TELEFONE_USER_4','M','ATIVO', 4);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_5','TELEFONE_USER_5','M','INATIVO', 5);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_6','TELEFONE_USER_6','M','ATIVO', 6);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_7','TELEFONE_USER_7','M','ATIVO', 7);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_8','TELEFONE_USER_8','M','INATIVO', 8);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_9','TELEFONE_USER_9','M','ATIVO', 9);
+
 
 /* QUESTÃO 3 */
 
