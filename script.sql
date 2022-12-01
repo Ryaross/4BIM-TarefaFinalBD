@@ -69,7 +69,6 @@ FOREIGN KEY (id_pedido) REFERENCES pedido(cd),
 FOREIGN KEY (id_produto) REFERENCES produto(cd)
 );
 
-
 /* QUESTÃO 1 */
 
 # LINK MER: https://raw.githubusercontent.com/devgamon/FinalBD/main/MER.png
@@ -145,15 +144,15 @@ INSERT INTO cidade(nome, id_estado) VALUES('Juiz de Fora', 3);
 
 /* INSERÇÕES CLIENTES */
 
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_1','TELEFONE_USER_1','M','INATIVO', 1);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_2','TELEFONE_USER_2','M','ATIVO', 2);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_3','TELEFONE_USER_3','M','ATIVO', 3);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_4','TELEFONE_USER_4','M','ATIVO', 4);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_5','TELEFONE_USER_5','M','INATIVO', 5);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_6','TELEFONE_USER_6','M','ATIVO', 6);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_7','TELEFONE_USER_7','M','ATIVO', 7);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_8','TELEFONE_USER_8','M','INATIVO', 8);
-INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER_9','TELEFONE_USER_9','M','ATIVO', 9);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 1','TELEFONE_USER 1','M','INATIVO', 1);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 2','TELEFONE_USER 2','M','ATIVO', 2);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 3','TELEFONE_USER 3','M','ATIVO', 3);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 4','TELEFONE_USER 4','M','ATIVO', 4);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 5','TELEFONE_USER 5','M','INATIVO', 5);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 6','TELEFONE_USER 6','M','ATIVO', 6);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 7','TELEFONE_USER 7','M','ATIVO', 7);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 8','TELEFONE_USER 8','M','INATIVO', 8);
+INSERT INTO cliente(nome, telefone, sexo, status, id_cidade) VALUES('NOME_USER 9','TELEFONE_USER 9','M','ATIVO', 9);
 
 
 /* QUESTÃO 3 */
