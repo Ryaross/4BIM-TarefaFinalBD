@@ -71,7 +71,7 @@ FOREIGN KEY (id_produto) REFERENCES produto(cd)
 
 /* QUESTÃO 1 */
 
-# LINK MER: https://raw.githubusercontent.com/devgamon/FinalBD/main/MER.png
+# LINK MER: https://raw.githubusercontent.com/Ryaross/4BIM-TarefaFinalBD/main/MER.png
 
 /* QUESTÃO 2 */ 
 
